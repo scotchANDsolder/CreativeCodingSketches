@@ -30,7 +30,7 @@ function draw() {
     //strokeWeight(sw);
     //strokeWeight(random(0.1,3));
     //noFill();
-    fill(255,150,0,sw);
+    fill(255,255,0,sw);
     noStroke();
 
     quad(750-i*1.75, 500-i,1000+i*1.75,500-i,1000+(i+30)*1.75,500-(i+30),750-(i+30)*1.75, 500-(i+30));
